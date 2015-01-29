@@ -11,6 +11,9 @@ table {
   padding-left: 2%;
   padding-right: 2%;
   font-family: Verdana;
+  margin-top: 0%;
+  margin-right: 0%;
+  margin-left: 0%;
 }
 
 img {
@@ -49,4 +52,14 @@ span {
   font-size: 2rem;
   width: 40%;
   text-decoration: none;
+}
+
+header {
+  width: 100%;
+  margin-top: 0%;
+  margin-right: 0%;
+  margin-left: 0%;
+  padding-left: 0%;
+  float: top;
+
 }
