@@ -18,12 +18,25 @@ section {
   padding-top: 4%;
   padding-bottom: 4%;
   border: 6px solid #539DC2;
+  position: relative;
 }
 
 img#blog {
   background-color: #3a6d87;
 }
 
+img#static {
+  float: left;
+  height: 20em;
+  width:  20em;
+
+}
+
+img#relative {
+  float: left;
+  height: 20em;
+  width:  20em;
+}
 
 
 
