@@ -1,0 +1,30 @@
+html {
+    background-color: #F5F5DC;
+    }
+#ppH1 {
+    position: center;
+    border: 5px solid blue;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    }
+#Eugene {
+    display: inline-block;
+    margin-left: 25%;
+    }
+#Rafael {
+    margin-left: 15%;
+    display: inline-block;
+    margin-right: 25%;
+    }
+div {
+    font-family: Courier;
+    }
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    }
+p {
+    padding-left:9em;
+    padding-right:9em;
+        }
