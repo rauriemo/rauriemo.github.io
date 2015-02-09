@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+  <title>Enumerable</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+
+</head>
+
+<main>
+  <header>
+     <table>
+    <tr>
+      <td><a href="../index.html"><span>RAFAEL AURIEMO</span></a></td>
+      <td><a href="../about-me/about-me.html"><img src="http://fc08.deviantart.net/fs70/i/2012/046/3/8/button_template_1_by_jemet49-d4pveq5.png" alt="About Me"/></a></td>
+      <td><a href="../projects/projects-index.html"><img src="http://fc08.deviantart.net/fs70/i/2012/046/3/8/button_template_1_by_jemet49-d4pveq5.png" alt="Projects"/></a></td>
+      <td><a href="../contact-me/contact-me.html"><img src="http://fc08.deviantart.net/fs70/i/2012/046/3/8/button_template_1_by_jemet49-d4pveq5.png" alt="Contact Me"/></a></td>
+      <td><a href="../blog/blog-index.html"><img id="blog" src="http://fc08.deviantart.net/fs70/i/2012/046/3/8/button_template_1_by_jemet49-d4pveq5.png" alt="Blog"/></a></td>
+    </tr>
+  </table>
+  </header>
+  <body>
+  <h1>Dev Bootcamp Blog</h1>
+  <h2>Enumerable Map Method</h2>
+  <h4>Feb. 9th, 2015</h4>
+
+  <section>
+    <p>
+      The Enumerable class functions much like an each method that iterates through every element of a given collection and has several methods to manipulate this data.
+    </p>
+    <p>
+      In order to use the interation powers of the Enumerable class you need to include a link to it inside your class formation. You do this simply by writing "include Enumerable" in the class and by defining an each method within it that yields all the elements of the desired collection to tbe iterated on.
+    </p>
+
+    <p>
+      One powerful tool that Enumerable provides is the map method. It takes a collection and a criteria and returns a copy of that collection where each element was transformed based on the criteria. The syntax for this is:
+
+      collection.map{|element| element.to_s}
+
+      In this example we return the elements of a collection transformed to strings. The map method is non destructive and were you to map an array you would not be altering the original content of the array.
+    </p>
+
+    <p>
+      This is very handy when you need to transform two collections into the same object class for comparison purposes allowing you to not alter the original data at all. For example if you wanted to find if the number 1 is a value within a hash you can map the hash transforming all the values into integers to see if one of the values is, even if it was entered as a string.
+    </p>
+
+  </section>
+</body>
+<footer>
+  <p> License </p>
+</footer>
+</main>
+
