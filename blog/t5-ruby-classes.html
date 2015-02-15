@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+  <title>Your page title here</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+
+</head>
+
+<main>
+  <header>
+     <table>
+      <tr>
+      <td><a href="../index.html"><span>RAFAEL AURIEMO</span></a></td>
+      <td><a href="../about-me/about-me.html"><img src="http://fc08.deviantart.net/fs70/i/2012/046/3/8/button_template_1_by_jemet49-d4pveq5.png" alt="About Me"/></a></td>
+      <td><a href="../projects/projects-index.html"><img src="http://fc08.deviantart.net/fs70/i/2012/046/3/8/button_template_1_by_jemet49-d4pveq5.png" alt="Projects"/></a></td>
+      <td><a href="../contact-me/contact-me.html"><img src="http://fc08.deviantart.net/fs70/i/2012/046/3/8/button_template_1_by_jemet49-d4pveq5.png" alt="Contact Me"/></a></td>
+      <td><a href="../blog/blog-index.html"><img id="blog" src="http://fc08.deviantart.net/fs70/i/2012/046/3/8/button_template_1_by_jemet49-d4pveq5.png" alt="Blog"/></a></td>
+    </tr>
+  </table>
+  </header>
+  <body>
+  <h1>Dev Bootcamp Blog</h1>
+  <h2>Ruby Classes</h2>
+  <h4>Feb. 15, 2015</h4>
+
+
+
+  <section>
+
+
+     <img src="../imgs/example_class.png" id="example_class"/>
+
+
+    <p>
+      The ruby class above represents a person. As you can see it takes a name at initialization. Every person has an age, and therefore i defined the @age instance variable at the beginning. I used the @ symbol to tell the program that the methods inside this class also have access to this variable. if i were to have used two @@ then it could be accessed by methods outside of the class. I then have two instance methods defined to return this variable and to modify its value.
+    </p>
+    <p>
+      As you can see however I did not implement similar methods for address and name. The reason for this is that attr_accessor :var_name is equivalent to having a get and set method for that variable. Instead of using accessor you can also use attr_reader if you want to be able to return the variable and attr_writter if you only want to be able to modify its value.
+    </p>
+    <p>
+      We use classes to group our code together in logical subcategories. Every time I access a variable related to person, I want to be dealing with that class and therefore all the methods should be contained within it also.
+    </p>
+
+  </section>
+</body>
+<footer>
+  <p> License </p>
+</footer>
+</main>
+

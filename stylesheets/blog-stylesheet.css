@@ -38,6 +38,11 @@ img#relative {
   width:  20em;
 }
 
+img#example_class {
+  float: center;
+  height: 20em;
+  width: 20em;
+}
 
 
 
