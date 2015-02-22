@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head>
+  <title>object oriented programming</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+
+</head>
+
+<main>
+  <header>
+    <table>
+    <tr>
+      <td><a href="../index.html"><span>RAFAEL AURIEMO</span></a></td>
+      <td><a href="../about-me/about-me.html"><img src="http://fc08.deviantart.net/fs70/i/2012/046/3/8/button_template_1_by_jemet49-d4pveq5.png" alt="About Me"/></a></td>
+      <td><a href="../projects/projects-index.html"><img src="http://fc08.deviantart.net/fs70/i/2012/046/3/8/button_template_1_by_jemet49-d4pveq5.png" alt="Projects"/></a></td>
+      <td><a href="../contact-me/contact-me.html"><img src="http://fc08.deviantart.net/fs70/i/2012/046/3/8/button_template_1_by_jemet49-d4pveq5.png" alt="Contact Me"/></a></td>
+      <td><a href="../blog/blog-index.html"><img id="blog" src="http://fc08.deviantart.net/fs70/i/2012/046/3/8/button_template_1_by_jemet49-d4pveq5.png" alt="Blog"/></a></td>
+    </tr>
+    </table>
+  </header>
+  <body>
+  <h1>Dev Bootcamp Blog</h1>
+  <h2>Inheritance Vs. Composition</h2>
+  <h4>Feb. 21, 2015</h4>
+
+  <section>
+    <p>
+      <img source = "../imgs/inheritance.png" />
+    </p>
+
+    <p>
+      In the example above the Class child inherits the class Parent. As a consequence even though there is no method implicit() in child when you run the code it will return "PARENT implicit()" twice.
+    </p>
+
+    <p>
+      Were you to have another implicit() method written in the child class it would replace any inherited methods. If you wanted your new method to run but also wanted the original method with the same name to run, you can use the Ruby built in function super()
+    </p>
+
+    <p>
+      The most common use of super() is in the initialize method of a child class where you usually want to also initialize whatever the parent class needs.
+    </p>
+
+    <p>
+      You can get into trouble using inheritance, especially once you start chaining many classes with inheritance. Instead of using inheritance we can instead use composition. For example:
+    </p>
+
+    <p>
+      <img source = "../imgs/composition.png" />
+    </p>
+
+    <p>
+      Here we have an instance of the class Other at the initialization of Child. This way we guarantee that every method of Child will have access to the methods of the Other class through the instance variable @other.
+    </p>
+
+    <p>
+      Another way to go by this is by using modules. For example:
+    </p>
+
+     <p>
+      <img source = "../imgs/module.png" />
+    </p>
+
+    <p>
+      In this example we see that modules are a different type of object and start with the module module_name syntax. By using the include module_name in a class we give it access to the methods of the module. This is an easy way to bring in methods that are repeated often in your program.
+    </p>
+
+    <p>
+      It is often tempting to always use inheritance as it is a fast and easy way to drag methods from another class. This can start to become problematic when chains of classes are used with inheritance. When possible it is best practice to use composition and modules.
+    </p>
+
+    <p>
+      ***** The picture examples above were taken from: http://learnrubythehardway.org/book/ex44.html
+    </p>
+    <p>
+      ***** I found it a good resource to study the subject
+    </p>
+  </section>
+</body>
+<footer>
+  <p> License </p>
+</footer>
+</main>
+
