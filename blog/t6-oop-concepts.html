@@ -25,9 +25,9 @@
   <h4>Feb. 21, 2015</h4>
 
   <section>
-    <p>
-      <img source = "../imgs/inheritance.png" />
-    </p>
+
+      <img src= "../imgs/inheritance.png" id="inheritance"/>
+
 
     <p>
       In the example above the Class child inherits the class Parent. As a consequence even though there is no method implicit() in child when you run the code it will return "PARENT implicit()" twice.
@@ -42,12 +42,12 @@
     </p>
 
     <p>
-      You can get into trouble using inheritance, especially once you start chaining many classes with inheritance. Instead of using inheritance we can instead use composition. For example:
+      You can get into trouble using inheritance, especially once you start chaining many classes with inheritance. Instead of using inheritance we can use composition. For example:
     </p>
 
-    <p>
-      <img source = "../imgs/composition.png" />
-    </p>
+
+      <img src = "../imgs/composition.png" id="composition"/>
+
 
     <p>
       Here we have an instance of the class Other at the initialization of Child. This way we guarantee that every method of Child will have access to the methods of the Other class through the instance variable @other.
@@ -57,16 +57,16 @@
       Another way to go by this is by using modules. For example:
     </p>
 
-     <p>
-      <img source = "../imgs/module.png" />
-    </p>
+
+      <img src = "../imgs/module.png" id="module"/>
+
 
     <p>
       In this example we see that modules are a different type of object and start with the module module_name syntax. By using the include module_name in a class we give it access to the methods of the module. This is an easy way to bring in methods that are repeated often in your program.
     </p>
 
     <p>
-      It is often tempting to always use inheritance as it is a fast and easy way to drag methods from another class. This can start to become problematic when chains of classes are used with inheritance. When possible it is best practice to use composition and modules.
+      It is often tempting to use inheritance as it is a fast and easy way to drag methods from another class. This can start to become problematic when chains of classes are used with inheritance. When possible it is best practice to use composition and modules.
     </p>
 
     <p>

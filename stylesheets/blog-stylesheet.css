@@ -44,6 +44,24 @@ img#example_class {
   width: 20em;
 }
 
+img#inheritance {
+  float: center;
+  height: 20em;
+  width: 20em;
+}
+
+img#composition {
+  float: center;
+  height: 40em;
+  width: 20em;
+}
+
+img#module {
+  float: center;
+  height: 35em;
+  width: 20em;
+}
+
 
 
 
