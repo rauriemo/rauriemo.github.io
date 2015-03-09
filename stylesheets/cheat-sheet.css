@@ -1,0 +1,11 @@
+img {
+float: center;
+padding-bottom: 30px;
+}
+h2{
+  position: relative;
+}
+div{
+  border-style: ridge;
+  border-width: 20px;
+}

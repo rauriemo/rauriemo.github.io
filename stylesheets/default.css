@@ -16,7 +16,25 @@ table {
   margin-left: 0%;
 }
 
-img {
+img#blog {
+  height: 40px;
+  width: 40px;
+  float: right;
+}
+
+img#about_me{
+  height: 40px;
+  width: 40px;
+  float: right;
+}
+
+img#contact_me{
+  height: 40px;
+  width: 40px;
+  float: right;
+}
+
+img#projects{
   height: 40px;
   width: 40px;
   float: right;
