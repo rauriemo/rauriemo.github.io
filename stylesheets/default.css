@@ -10,9 +10,20 @@ table#nav_bar {
   margin-top: 0%;
   margin-right: 0%;
   margin-left: 0%;
-  background-image: url(logo-long.png);
+  background-image: url("https://github.com/rauriemo/rauriemo.github.io/blob/master/imgs/logo-long.png?raw=true");
   background-repeat: no-repeat;
-  background-position: left center;
+  background-size: percentage 100;
+  background-position: right ;
+  bac
+}
+
+img#logo {
+  width:100%;
+  margin-left: 0;
+  padding-right: 0;
+  padding-left: 0;
+  float: left;
+  position: relative;
 }
 
 img#blog {
@@ -40,15 +51,6 @@ img#projects{
   height: 40px;
   width: 40px;
   float: right;
-}
-
-img#logo {
-  width:100%;
-  margin-left: 0;
-  padding-right: 0;
-  padding-left: 0;
-  float: left;
-  position: relative;
 }
 
 h1{
