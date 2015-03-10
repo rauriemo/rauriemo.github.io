@@ -2,31 +2,69 @@
   <head>
     <title>Index</title>
     <link rel="stylesheet" type="text/css" href="./stylesheets/default.css">
-    <link rel="stylesheet" type="text/css" href="./stylesheets/index-stylesheet.css">
-
+    <link rel="stylesheet" type="text/css" href="./stylesheets/index.css">
   </head>
 
    <header>
-    <table>
+    <table id="nav_bar">
     <tr>
-      <td><a href="./index.html"><span>RAFAEL AURIEMO</span></a></td>
-      <td><a href="./about-me/about-me.html"><img id="about_me" src="http://fc08.deviantart.net/fs70/i/2012/046/3/8/button_template_1_by_jemet49-d4pveq5.png" alt="About Me"/></a></td>
-      <td><a href="./projects/projects-index.html"><img id="projects" src="http://fc08.deviantart.net/fs70/i/2012/046/3/8/button_template_1_by_jemet49-d4pveq5.png" alt="Projects"/></a></td>
-      <td><a href="./contact-me/contact-me.html"><img id="contact_me" src="http://fc08.deviantart.net/fs70/i/2012/046/3/8/button_template_1_by_jemet49-d4pveq5.png" alt="Contact Me"/></a></td>
-      <td><a href="./blog/blog-index.html"><img id="blog" src="http://fc08.deviantart.net/fs70/i/2012/046/3/8/button_template_1_by_jemet49-d4pveq5.png" alt="Blog"/></a></td>
+      <div id="logo-div">
+        <td><a href="./index.html"><img id="logo" src="./imgs/logo-long.png"/></a></td>
+      </div>
+      <div id="buttons">
+        <td><a href="./about-me/about-me.html"><img id="about_me" src="http://images.clipartpanda.com/apple-clipart-pT5dBEnTB.png" alt="About Me"/></a></td>
+        <td><a href="./projects/projects-index.html"><img id="projects" src="http://files.softicons.com/download/internet-icons/di-black-symbol-icons-by-drew-maughan/ico/binary.ico" alt="Projects"/></a></td>
+        <td><a href="./contact-me/contact-me.html"><img id="contact_me" src="https://lh3.ggpht.com/cei9yCZlIV8fZTCWsCkUyEiW0WBqCB_G55A8rqShBiPoOvZKbTnLu5oLCsuk_BmU6sw=w170" alt="Contact Me"/></a></td>
+        <td><a href="./blog/blog-index.html"><img id="blog" src="https://i.vimeocdn.com/portrait/5707761_300x300.jpg" alt="Blog"/></a></td>
+      </div>
     </tr>
     </table>
   </header>
+
   <body>
-    <h1>Index</h1>
 
-    <p> site still under construction!</p>
-
-    <p>click on 4 buttons above to navigate</p>
+  <table id="views">
+    <tr>
+      <td>
+        <div class="view">
+          <img src="http://upload.wikimedia.org/wikipedia/en/e/e5/Magritte_TheSonOfMan.jpg"/>
+          <div class="mask">
+           <a href="./about-me/about-me.html"/><h2>about me</h2></a>
+          </div>
+        </div>
+      </td>
+      <td>
+        <div class="view">
+          <img id="binary" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQG8f6bOxfupL4N2cpZhOrFOe3MmPBraBAj6Ls6crL011-Zwrisng"/>
+          <div class="mask">
+            <a href="./projects/projects-index.html"/><h2>projects</h2></a>
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="view">
+          <img id="mail" src="https://lh3.ggpht.com/cei9yCZlIV8fZTCWsCkUyEiW0WBqCB_G55A8rqShBiPoOvZKbTnLu5oLCsuk_BmU6sw=w170"/>
+          <div class="mask">
+            <a href="./contact-me/contact-me.html"/><h2>contact me</h2></a>
+          </div>
+        </div>
+      </td>
+      <td>
+        <div class="view">
+          <img id="dev" src="http://www.thehackerati.com/blog/assets/img/dbc.png"/>
+          <div class="mask">
+            <a href="./blog/blog-index.html"/><h2>blog</h2></a>
+          </div>
+        </div>
+    </div>
+      </td>
+    </tr>
+  </table>
 
     <a href="./gps/gps1-2.html">GPS 1-2</a>
 
     <a href="./cheat-sheet.html">CSS Cheat Sheet</a>
-
 
   </body>

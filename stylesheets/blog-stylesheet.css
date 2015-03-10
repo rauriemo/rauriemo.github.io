@@ -20,10 +20,10 @@ section {
   border: 6px solid #539DC2;
   position: relative;
 }
-
+/*
 img#blog {
   background-color: #3a6d87;
-}
+}*/
 
 img#static {
   float: left;
@@ -62,7 +62,21 @@ img#module {
   width: 20em;
 }
 
-
+ul {
+  font-family: Courier;
+  font-size: 1.5em;
+  margin-left: 3em;
+  padding-left: 0%;
+  position: relative;
+  list-style-position: inside;
+  background-color: #fafaff;
+  margin-left: 7%;
+  margin-right: 7%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  border: 6px solid #539DC2;
+  text-decoration: none;
+}
 
 
 

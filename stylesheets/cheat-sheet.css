@@ -1,11 +1,32 @@
 img {
 float: center;
 padding-bottom: 30px;
+max-width: 100%;
+height: auto;
+width: auto\9;
 }
+
 h2{
   position: relative;
 }
+
 div{
   border-style: ridge;
   border-width: 20px;
+}
+
+img#blog {
+ padding: 0;
+}
+
+img#about_me{
+  padding: 0;
+}
+
+img#contact_me{
+  padding: 0;
+}
+
+img#projects{
+  padding: 0;
 }

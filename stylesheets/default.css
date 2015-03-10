@@ -2,24 +2,26 @@ html {
   background-color: #B2DFEE;
 }
 
-table {
+table#nav_bar {
   border: 4px solid gray;
   width: 100%;
   background-color: #539DC2;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  padding-left: 2%;
-  padding-right: 2%;
   font-family: Verdana;
   margin-top: 0%;
   margin-right: 0%;
   margin-left: 0%;
+  background-image: url(logo-long.png);
+  background-repeat: no-repeat;
+  background-position: left center;
 }
 
 img#blog {
   height: 40px;
   width: 40px;
-  float: right;
+  float: right;/*
+  position: absolute;
+  right: 5px;
+  top: 5px;*/
 }
 
 img#about_me{
@@ -40,20 +42,13 @@ img#projects{
   float: right;
 }
 
-ul {
-  font-family: Courier;
-  font-size: 1.5em;
-  margin-left: 3em;
-  padding-left: 0%;
+img#logo {
+  width:100%;
+  margin-left: 0;
+  padding-right: 0;
+  padding-left: 0;
+  float: left;
   position: relative;
-  list-style-position: inside;
-  background-color: #fafaff;
-  margin-left: 7%;
-  margin-right: 7%;
-  padding-top: 4%;
-  padding-bottom: 4%;
-  border: 6px solid #539DC2;
-  text-decoration: none;
 }
 
 h1{
@@ -64,14 +59,7 @@ h1{
 body {
   text-align: center;
 }
-
-span {
-  font-style: bold;
-  font-size: 2rem;
-  width: 40%;
-  text-decoration: none;
-}
-
+/*
 header {
   width: 100%;
   margin-top: 0%;
@@ -79,5 +67,17 @@ header {
   margin-left: 0%;
   padding-left: 0%;
   float: top;
-
+  position: relative;
+}*/
+/*
+div#logo-div {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
 }
+
+div#buttons {
+  position: relative;
+  z-index: 2;
+}*/
